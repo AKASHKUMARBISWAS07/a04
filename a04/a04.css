@@ -1,0 +1,230 @@
+body
+{
+    margin: 0;
+}
+h2
+{
+width: 100%;
+background-image:linear-gradient(
+    to right,
+    red,
+    rgb(6, 56, 6),
+    green,
+    rgb(102, 255, 102),
+    yellow
+);
+text-decoration: underline;
+}
+ul
+{
+    background-color: rgb(117, 203, 226);
+    width: 500px;
+    border:rgb(215, 53, 53) solid;
+    border-radius: 10px;
+    margin-left: 300px;
+}
+.u1
+{
+padding-left: 400px;
+}
+.l1,.l2,.l3
+{
+    padding-left: 40px;
+}
+.f1
+{
+    display: flex;
+}
+.p1
+{
+    background-color: rgb(127, 240, 255);
+    width: 400px;
+    height: 55px;
+    border-radius: 5px;
+    border: solid rgb(54, 142, 48);
+    margin-left: 30px;
+    margin-top: 0;
+}
+.p2
+{
+    background-color: rgb(127, 240, 255);
+    width: 400px;
+    height: 55px;
+    border-radius: 5px;
+    border: solid rgb(54, 142, 48);
+    margin-left: 150px;
+    margin-top: 0;
+}
+.p3
+{
+    background-color: rgb(127, 240, 255);
+    width: 400px;
+    height: 55px;
+    border-radius: 5px;
+    border: solid rgb(54, 142, 48);
+    margin-left: 100px;
+    margin-top: 0;
+}
+.p4
+{
+    background-color: rgb(127, 240, 255);
+    width: 400px;
+    height: 55px;
+    border-radius: 5px;
+    border: solid rgb(54, 142, 48);
+    margin-left: 585px;
+    margin-top:0;
+}
+.b1
+{
+    width:100%;
+    background-color: aquamarine;
+    border: solid red 1px;
+    border-radius: 10px;
+    height: 121px;
+}
+.o1
+{
+    width: 100%;
+    background-image: radial-gradient(
+        rgb(255, 255, 74),
+        rgb(241, 241, 8),
+        red
+    );
+    height: 23px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.gridcon
+{
+    padding: 50px;
+    display: grid;
+    background-image: radial-gradient(
+        rgb(19, 19, 203),
+        rgb(23, 23, 180)10%,
+        rgb(40, 188, 40)
+    );
+    grid-template-rows:auto;
+    gap: 200px;
+    display: flex;
+    flex-flow: row;
+}
+
+.gi1
+{
+    align-items: center;
+    width: 150px;
+    margin: 2px;
+    background-color: rgba(242, 245, 35, 0.993);
+    padding: 5px;
+    font-size: 15px;
+    text-decoration: underline;
+    margin-left: 80px;
+    border-radius: 10px;
+    border: 3px solid rgb(203, 31, 31);
+    color: brown;
+}
+.gi2
+{
+    width: 150px;
+    margin: 2px;
+    background-color: rgba(242, 245, 35, 0.993);
+    padding: 5px;
+    font-size: 15px;
+    text-decoration: underline;
+    border-radius: 10px;
+    border: 3px solid rgb(203, 31, 31);
+    color: brown;
+}
+.gi3
+{
+    width: 150px;
+    margin: 2px;
+    background-color: rgba(242, 245, 35, 0.993);
+    padding: 5px;
+    font-size: 15px;
+    text-decoration: underline;
+    border-radius: 10px;
+    border: 3px solid rgb(203, 31, 31);
+    color: brown;
+}
+.gi4
+{
+    display: flex;
+    flex-flow: row;
+    width: 150px;
+    margin: 2px;
+    background-color: rgba(242, 245, 35, 0.993);
+    padding: 5px;
+    font-size: 15px;
+    text-decoration: underline;
+    border-radius: 10px;
+    border: 3px solid rgb(203, 31, 31);
+    color: brown;
+}
+.cr
+{
+    background-color: rgb(196, 58, 58);
+    color: aliceblue;
+    padding: 5px;
+    margin-top: 0;
+    word-spacing: 3px;
+}
+.gr2
+{
+width: 1341px;
+display: flex;
+flex-flow: row;
+gap: 20px;
+position: relative;
+}
+.g5
+{
+    background-color: rgb(105, 172, 6);
+    width: 400px;
+    color: aliceblue;
+    font-size: 30px;
+    height: 70px;
+}
+.g6
+{
+    background-color: rgb(24, 168, 176);
+    width: 450px;
+    color: aliceblue;
+    font-size: 30px;
+    height: 70px;
+}
+.g7
+{
+    background-color: rgb(27, 43, 169);
+    width: 450px;
+    color: aliceblue;
+    font-size: 20px;
+    height: 71px;
+}
+.flo
+{
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    width: 150px;
+    height: 240px;
+    float:right;
+    text-decoration: underline;
+    position: relative;
+    bottom: 70px;
+    right: 2px;
+}
+.org
+{
+    background-color: rgb(198, 131, 7);
+    color: aliceblue;
+    font-size: 20px;
+    width: 1341px;
+    height: 150px;
+}
+.all
+{
+    background-color: rgb(28, 204, 145);
+    font-size: 20px;
+}
